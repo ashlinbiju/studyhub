@@ -1,0 +1,53 @@
+/* General Reset for Flexbox Alignment */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the content section */
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  /* Home Page Heading */
+  .home-heading {
+    font-size: 36px;
+    color: #6a0dad; /* Purple color */
+    margin-bottom: 20px;
+  }
+  
+  /* Home Page Description */
+  .home-description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Branch Selection Button */
+  .btn-branch-selection {
+    padding: 10px 20px;
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-branch-selection:hover {
+    background-color: #4b0082; /* Darker purple */
+  }
+  
+  /* Ensure Navbar and Footer */
+  .navbar, .footer {
+    flex-shrink: 0;
+  }
+  

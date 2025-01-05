@@ -1,0 +1,44 @@
+/* Global styles for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a0dad; /* Purple */
+    padding: 1rem 1rem;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .navbar-left {
+    font-size: 24px;
+    margin-left: 1rem;
+  }
+  
+  .navbar-logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 1.2rem; /* Reduce gap between buttons */
+    margin-right: 2rem; /* Move the buttons a bit towards the left */
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar-link:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  

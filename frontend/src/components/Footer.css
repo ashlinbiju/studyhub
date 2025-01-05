@@ -1,0 +1,21 @@
+/* Global styles for footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;  /* Added */
+    right: 0; /* Added */
+    width: 100vw; /* Changed from 100% to 100vw */
+    margin: 0;
+    box-sizing: border-box;
+    display: block; /* Added */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    padding: 0 20px;
+}

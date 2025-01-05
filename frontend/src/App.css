@@ -1,0 +1,88 @@
+/* General Reset and Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  min-height: 100vh;
+  width: 100%;
+  display: block; /* Changed from flex to block */
+  position: relative;
+}
+
+/* App Container: Centering Content */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 60px); /* Adjusted to account for footer */
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  align-items: center;
+}
+/* Main Content Area */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin: auto; /* Centers content vertically when there's space */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #6a0dad;
+  display: flex;
+  justify-content: center; /* Center navbar content */
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Center the links */
+}
+
+footer {
+  background-color: #6a0dad;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+/* Ensure all content within app-content is centered */
+.app-content > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; /* Or your preferred maximum width */
+  width: 100%;
+}

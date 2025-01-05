@@ -1,0 +1,54 @@
+/* Branch Selection Page Styling */
+.branch-selection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .branch-selection-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 80px; /* To provide space below the fixed navbar */
+    text-align: center;
+  }
+  
+  .branch-selection-content h1 {
+    font-size: 36px;
+    color: black; /* Purple color */
+    margin-bottom: 30px; /* Space between the title and buttons */
+  }
+  
+  .branch-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between each branch button */
+    width: 100%;
+  }
+  
+  .branch-btn {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #6a0dad; /* Purple color */
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 400px; /* Maximum width for buttons */
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .branch-btn:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+  }
+  
