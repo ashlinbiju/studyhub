@@ -28,7 +28,7 @@
   .navbar-right {
     display: flex;
     gap: 1.2rem; /* Reduce gap between buttons */
-    margin-right: 2rem; /* Move the buttons a bit towards the left */
+    margin-right: 2.5rem; /* Move the buttons a bit towards the left */
   }
   
   .navbar-link {

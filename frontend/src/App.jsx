@@ -6,6 +6,16 @@ import BranchSelection from './pages/BranchSelection.jsx';
 
 // CS Imports
 import SemesterSelectionCS from './pages/subjects/cs/SemesterSelection.jsx';
+import LinearAlgebraAndCalculus from './pages/subjects/cs/sub1/alg.jsx';
+import Graphics from './pages/subjects/cs/sub1/graphics.jsx';
+import Chemistry from './pages/subjects/cs/sub1/chem.jsx';
+
+import Bce from './pages/subjects/cs/sub1/bce.jsx';
+import A1 from './pages/subjects/cs/sub1/a1.jsx';
+import A2 from './pages/subjects/cs/sub1/a2.jsx';
+import A3 from './pages/subjects/cs/sub1/a3.jsx';
+import A4 from './pages/subjects/cs/sub1/a4.jsx';
+import A5 from './pages/subjects/cs/sub1/a5.jsx';
 import SubjectCS_S1 from './pages/subjects/cs/s1.jsx';
 import SubjectCS_S2 from './pages/subjects/cs/s2.jsx';
 import SubjectCS_S3 from './pages/subjects/cs/s3.jsx';
@@ -74,7 +84,18 @@ function App() {
             <Route path="/branch-selection" element={<BranchSelection />} />
 
             {/* CS Routes */}
-            <Route path="/subjects/cs" element={<SemesterSelectionCS />} />
+           <Route path="/subjects/cs" element={<SemesterSelectionCS />} />
+           <Route path="/subjects/cs/sub1/alg" element={<LinearAlgebraAndCalculus />} />
+           <Route path="/subjects/cs/sub1/chem" element={<Chemistry />} />
+           <Route path="/subjects/cs/sub1/graphics" element={<Graphics />} />
+           <Route path="/subjects/cs/sub1/bce" element={<Bce />} />
+           <Route path="/subjects/cs/sub1/a1" element={<A1 />} />
+           <Route path="/subjects/cs/sub1/a2" element={<A2 />} />
+           <Route path="/subjects/cs/sub1/a3" element={<A3 />} />
+           <Route path="/subjects/cs/sub1/a4" element={<A4 />} />
+           <Route path="/subjects/cs/sub1/a5" element={<A5 />} />
+           
+        
             <Route path="/subjects/cs/s1" element={<SubjectCS_S1 />} />
             <Route path="/subjects/cs/s2" element={<SubjectCS_S2 />} />
             <Route path="/subjects/cs/s3" element={<SubjectCS_S3 />} />

@@ -1,38 +1,39 @@
-/* Semester 1 Page Styling */
-.s1-container {
+/* Semester Selection Page Styling */
+.semester-selection-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    padding-top: 70px; /* Adjust for the fixed navbar */
+    padding-top: 70px; /* To adjust for the fixed navbar */
   }
   
-  .s1-content h1 {
+  .semester-selection-content h1 {
     font-size: 36px;
     color: black; /* Purple color */
     margin-bottom: 20px;
   }
   
-  .subject-list {
+  .semester-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Spacing between subjects */
+    gap: 15px; /* Spacing between buttons */
     margin-top: 30px;
   }
   
-  .subject {
+  .semester-btn {
     font-size: 20px;
     color: #fff;
-    background-color: #6a0dad; /* Purple background for subjects */
+    text-decoration: none;
+    background-color: #6a0dad; /* Purple color */
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
   }
   
-  .subject:hover {
-    background-color: #4b0082; /* Darker purple on hover */
+  .semester-btn:hover {
+    background-color: #4b0082; /* Darker purple */
   }
   
